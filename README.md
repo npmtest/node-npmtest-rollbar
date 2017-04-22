@@ -1,4 +1,7 @@
-# test coverage for  [rollbar (v0.6.5)](https://rollbar.com/docs/notifier/node_rollbar/)  [![npm package](https://img.shields.io/npm/v/npmtest-rollbar.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rollbar) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rollbar.svg)](https://travis-ci.org/npmtest/node-npmtest-rollbar)
+# npmtest-rollbar
+
+#### basic test coverage for  [rollbar (v0.6.5)](https://rollbar.com/docs/notifier/node_rollbar/)  [![npm package](https://img.shields.io/npm/v/npmtest-rollbar.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rollbar) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rollbar.svg)](https://travis-ci.org/npmtest/node-npmtest-rollbar)
+
 #### A standalone (Node.js) client for Rollbar
 
 [![NPM](https://nodei.co/npm/rollbar.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/rollbar)
@@ -106,7 +109,8 @@
         "test": "vows --spec test/*.js",
         "test-and-coverage": "istanbul cover -- vows --spec test/*.js"
     },
-    "version": "0.6.5"
+    "version": "0.6.5",
+    "bin": {}
 }
 ```
 
